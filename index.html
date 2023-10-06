@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Jogo da Forca</h1>
+        </div>
+        <div class="board">
+            <div class="word">_ _ _ _ _</div>
+            <div class="info">
+                <p>Letras utilizadas:</p>
+                <div class="used-letters"></div>
+                <p>Tentativas restantes: <span class="attempts">6</span></p>
+            </div>
+            <input type="text" id="letra" maxlength="1" placeholder="Digite uma letra">
+            <button id="chutar">Chutar</button>
+            <button id="reiniciar">Reiniciar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
